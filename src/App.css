@@ -32,14 +32,7 @@ nav a:hover {
 }
 
 .card {
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 40vh;
-}
-
-#chronometer-container {
+  padding: 0 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,7 +41,7 @@ nav a:hover {
 
 #chronometer {
   margin: 0 auto;
-  width: 300px;
+  width: fit-content;
   padding: 20px;
   border: 2px solid #565758;
   border-radius: 5px;
@@ -59,12 +52,17 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   column-gap: 5px;
 }
 
 .digit {
   width: 60px;
-  padding: 2px 1px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 2px 1px; */
   /* border: 1px solid rgba(144, 245, 104, 0.527); */
   border-radius: 5px;
   background-color: aliceblue;
@@ -78,7 +76,7 @@ nav a:hover {
 
 .digit,
 .colon {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 500;
   color: #fff;
   text-shadow: 1px 1px 2px #2e2d2d91;
@@ -116,7 +114,6 @@ nav a:hover {
 }
 
 .instructions {
-  margin-top: 10px;
   color: #888;
 }
 
@@ -176,8 +173,3 @@ footer #links img {
 }
 
 
-@media screen and (max-width: 800px) {
-  footer {
-    margin-top: 50px;
-  }
-}
