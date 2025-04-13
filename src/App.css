@@ -121,6 +121,7 @@ footer {
   width: 250px;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 10px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.068);
   border-radius: 10px;
@@ -175,6 +176,6 @@ footer #links img {
 
 @media screen and (max-width: 800px) {
   footer {
-    margin-top: 60px;
+    margin-top: 50px;
   }
 }
