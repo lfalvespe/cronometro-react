@@ -36,7 +36,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 40vh;
+  height: 35vh;
 }
 
 #chronometer {
