@@ -91,6 +91,8 @@ const App = () => {
 
         </div>
 
+        <div id='mark'>&copy; 2025</div>
+
       </footer >
 
     </>
