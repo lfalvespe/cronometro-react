@@ -127,9 +127,23 @@ footer {
   border-radius: 10px;
 }
 
+#author-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 #logo-author {
-  vertical-align: bottom;
+  justify-content: center;
+  padding-right: 5px;
   filter: drop-shadow(1px 1px 2px rgba(253, 246, 148, 0.274));
+}
+
+#author-text-container{
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 5px;
 }
 
 #author {
@@ -158,10 +172,8 @@ footer img {
 footer #links {
   width: 204px;
   margin: auto;
-
   display: flex;
   justify-content: space-between;
-  
 }
 
 footer #links img {

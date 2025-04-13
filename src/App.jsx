@@ -78,9 +78,9 @@ const App = () => {
       </p>
 
       <footer>
-
-        <p>
-          <img id='logo-author' src="logo.png" alt="" height="40" />Criado por<strong><em> <span id="author">Fernando Alves</span></em></strong>
+        <p id='author-container'>
+          <div><img id='logo-author' src="logo.png" alt="" height="40" /></div>
+          <div id='author-text-container'>Criado por <strong><em> <span id="author"> Fernando Alves</span></em></strong></div>
         </p>
 
         <div id="links">
