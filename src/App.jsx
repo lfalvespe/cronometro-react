@@ -54,7 +54,7 @@ const App = () => {
 
     <Navbar />
 
-      <h1>Cronômetro</h1>
+      <h1 id='page-title'>Cronômetro</h1>
 
       <div className="card">
 
